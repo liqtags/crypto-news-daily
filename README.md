@@ -1,2 +1,2 @@
-# crypto-news-daily
-A Crypto News Bot
+
+# Daily Crypto News Feed By Liquid
