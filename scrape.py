@@ -4,7 +4,7 @@ from my_custom_package import todayDateFileName, strdate, createAndScrape, write
 title = strdate
 url = './' + todayDateFileName
 description = 'Crypto Daily News Feed - ' + strdate
-readme_new_top_line = (u"* [{title}]({url}):{description}\n".format(title=title, url=url, description=description))
+readme_new_top_line = (u"* [{title}]({url})".format(title=title, url=url))
 
 def job():
     createAndScrape('Crypto Daily News Feed', todayDateFileName, '2023', strdate, isToday=True)
